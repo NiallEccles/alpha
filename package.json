@@ -1,0 +1,23 @@
+{
+  "name": "alpha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiallEccles/alpha.git"
+  },
+  "author": "Niall Eccles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiallEccles/alpha/issues"
+  },
+  "homepage": "https://github.com/NiallEccles/alpha#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1"
+  }
+}
