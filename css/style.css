@@ -5,6 +5,10 @@ body{
 	line-height: 2rem;
 }
 
+.no-pad{
+	padding-top:5rem!important;
+}
+
 h1{
 	font-family: 'Lora', serif;
 }
@@ -38,12 +42,17 @@ a{
 	margin-top:50px;
 }
 
+#return{
+	position: absolute;
+	top:10px;
+}
+
 #footpush{
 	margin-bottom:50px;
 }
 
 .measure{
-	max-width: 50em;
+	max-width: 100%;
 }
 
 .linking>a, .linking{
@@ -59,15 +68,33 @@ a{
 	transition: all ease-in-out 300ms;
 }
 
+@media screen and (min-width: 820px) {
+	#return{
+		display: auto;
+	}
+
+	#return-footer{
+		display: none;
+	}
+}
+
 @media screen and (max-width: 1051px) {
 	img.w-33.fill {
-	width:30%;
-	margin:auto;
+		width:30%;
+		margin:auto;
 	}
 }
 @media screen and (max-width: 820px) {
 	img.w-33.fill {
-	width:100%;
-	margin:auto;
+		width:100%;
+		margin:auto;
+	}
+
+	#return{
+		display: none;
+	}
+
+	#return-footer{
+		display: auto;
 	}
 }
